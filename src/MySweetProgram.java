@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class MySweetProgram
 {
     public static void main(String[] args)
     {
-        System.out.println("G E K O L O N I S E E R D");
+        System.out.println("What is your name?");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        System.out.println("Hello " + name);
     }
 }
